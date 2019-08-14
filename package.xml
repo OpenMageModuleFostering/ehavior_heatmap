@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ehavior_heatmap</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The official Ehavior heatmap extension for Magento</summary>
+    <description>This extension will help you install the Ehavior tracking code on your Magento site by just entering your account id. Easy and simple.&#xD;
+&#xD;
+For more information about Ehavior and heatmaps, visit our website at http://ehavior.net/</description>
+    <notes>Initial public release</notes>
+    <authors><author><name>Jan Flora</name><user>janflora</user><email>jf@ehavior.net</email></author></authors>
+    <date>2012-12-17</date>
+    <time>23:01:51</time>
+    <contents><target name="magecommunity"><dir name="Ehavior"><dir><dir name="Heatmap"><dir name="Block"><file name="Tracking.php" hash="ad6d562e714450ed85965c3d7b702177"/></dir><dir name="Helper"><file name="Data.php" hash="6484e49e726078e9ba6dc7861b08e5bb"/></dir><dir name="etc"><file name="adminhtml.xml" hash="2f452ab1a0a404e8793bbcd03806ea76"/><file name="config.xml" hash="05d7f89f57744a7fbeb955498ecb36b1"/><file name="system.xml" hash="4299698378a3cc6f790098f62087270a"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="ehavior.xml" hash="6738bafa15cca7e835d2e775d9d58022"/></dir><dir name="template"><dir name="ehavior"><file name="heatmap.phtml" hash="e37946b9330c5fd3dc344029011f4f0e"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ehavior_Heatmap.xml" hash="71d91a5a7f558ab29fe9179f56e99eda"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

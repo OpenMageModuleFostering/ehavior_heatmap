@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ehavior_Heatmap>
+            <version>1.0.0</version>
+        </Ehavior_Heatmap>
+    </modules>
+    <global>
+        <blocks>
+            <heatmap>
+                <class>Ehavior_Heatmap_Block</class>
+            </heatmap>
+        </blocks>
+        <helpers>
+            <heatmap>
+                <class>Ehavior_Heatmap_Helper</class>
+            </heatmap>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <heatmap>
+                    <file>ehavior.xml</file>
+                </heatmap>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <!-- Ehavior_heatmap -->
+        <reference name="before_body_end">
+            <block type="heatmap/tracking" name="heatmap_tracking" template="ehavior/heatmap.phtml" />
+        </reference>
+    </default>
+</layout>

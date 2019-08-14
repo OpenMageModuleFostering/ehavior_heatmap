@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ehavior_Heatmap>
+            <active>true</active>
+            <codePool>community</codePool>
+		</Ehavior_Heatmap>
+    </modules>
+</config> 

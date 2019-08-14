@@ -1,0 +1,9 @@
+<?php $accountId = Mage::getStoreConfig(Ehavior_Heatmap_Helper_Data::XML_PATH_ACCOUNT) ?>
+
+<!-- BEGIN Ehavior tracking code -->
+<script type="text/javascript">
+//<![CDATA[
+	<?php echo $this->_getPageTrackingCode($accountId) ?>
+//]]>
+</script>
+<!-- END Ehavior tracking code -->

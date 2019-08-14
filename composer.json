@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ehavior_heatmap",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "The official Ehavior heatmap extension for Magento",
+    "authors": [
+    {
+        "name": "Jan Flora",
+        "email": "jf@ehavior.net"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
